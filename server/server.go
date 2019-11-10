@@ -1,7 +1,7 @@
 package main
 
 import (
-	"Simple-Chat-Server/message"
+	"Simple-Chat-Application/message"
 	"encoding/json"
 	"fmt"
 	"io"

@@ -1,4 +1,4 @@
-# Simple-Chat-Server
+# Simple-Chat-Application
 
 ## Introduction
 This is a simple demo of Golang chat application. Client can send and receive message from other client go through a central server.

@@ -1,7 +1,7 @@
 package main
 
 import (
-	"Simple-Chat-Server/message"
+	"Simple-Chat-Application/message"
 	"bufio"
 	"encoding/json"
 	"errors"
@@ -58,7 +58,7 @@ func Process(conn net.Conn) {
 }
 
 func main() {
-	conn, err := net.Dial("tcp", "192.168.164.52:8080")
+	conn, err := net.Dial("tcp", "0.0.0.0:8080")
 	if err != nil {
 		fmt.Println("Client dial error: ", err)
 	}
